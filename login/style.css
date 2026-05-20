@@ -770,3 +770,34 @@ body {
         height: 16px;
     }
 }
+
+/* LOGIN NAVBAR */
+.nav-cta{
+    background:#4caf50;
+    color:white;
+    border:none;
+    padding:8px 20px;
+    border-radius:20px;
+    font-weight:bold;
+    margin-top:8px;
+    transition:0.3s;
+    cursor:pointer;
+}
+
+.nav-cta:hover{
+    background:#388e3c;
+    color:white;
+    transform:translateY(-2px);
+    box-shadow:0 6px 15px rgba(76,175,80,0.4);
+}
+
+.login-item{
+    display:flex;
+    align-items:center;
+}
+
+#userinfo{
+    color:white;
+    margin:15px 10px 0 0;
+    font-weight:500;
+}
