@@ -605,3 +605,53 @@ footer hr { width: 80px; }
   .tm-team .media .border-right { border-right: 0; }
   .tm-contact .contact-form { padding-top: 140px; }
 }
+
+@media (max-width: 480px) {
+  .navbar-default .navbar-brand {
+    position: relative;
+    bottom: 27px;
+  }
+  .tm-home {
+    padding-top: 100px;
+    padding-bottom: 120px;
+  }
+
+  .tm-about-header { font-size: 20px; }
+  .tm-about-h3 { font-size: 18px; }
+  .tm-team .media { max-width: 270px; }
+  .tm-team .media .media-object { padding-right: 0; }
+  .tm-team img {
+    width: auto;
+    height: auto;
+  }
+  .tm-team .media .border-right { border-right: 0; }
+  .tm-contact .contact-form { padding-top: 140px; }
+}
+
+/* ================= LOGIN AREA ================= */
+
+#loginBox {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+#userinfo {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.login-btn,
+.nav-cta {
+    background: #a4c639;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.login-btn:hover,
+.nav-cta:hover {
+    background: #8cab2e;
+}
