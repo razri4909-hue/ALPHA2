@@ -35,12 +35,12 @@
             <form class="harmony-form" id="loginForm" novalidate>
                 <div class="organic-field">
                     <div class="field-nature"></div>
-                    <input type="username" id="username" name="username" required autocomplete="username">
-                    <label for="email">Username</label>
+                    <input type="text" id="username" name="username" required autocomplete="username">
+                    <label for="username">Username</label>
                     <div class="growth-indicator">
                         <div class="leaf-sprout"></div>
                     </div>
-                    <span class="gentle-error" id="emailError"></span>
+                    <span class="gentle-error" id="usernameError"></span>
                 </div>
 
                 <div class="organic-field">
@@ -84,10 +84,10 @@
                 </button>
 
                 <div class="social">
-                  <div class="go"> <a href="register.html">DAFTAR </a></div>
-                  <div class="kanan"><i class=fab fa-google"></i> Google</div>
+                    <div class="go"><a href="register.html">DAFTAR</a></div>
+                    <div class="kanan"><i class="fab fa-google"></i> Google</div>
                 </div>
-                <button on click="location.href='../index.html';">Home</button>
+                <button type="button" onclick="location.href='../index.html';">Home</button>
                 <div id="alertBox" class="alert" style="display:none;"></div>
             </form>
 
@@ -117,7 +117,7 @@
                 <button type="button" class="earth-social">
                     <div class="social-earth"></div>
                     <svg width="18" height="18" viewBox="0 0 18 18" fill="#1DA1F2">
-                        <path d="M18 3.4c-.7.3-1.4.5-2.2.6.8-.5 1.4-1.2 1.7-2.1-.7.4-1.5.7-2.4.9C14.4 2.1 13.4 1.5 12.2 1.5c-2.1 0-3.8 1.7-3.8 3.8 0 .3 0 .6.1.9C5.8 6 3.1 4.6 1.3 2.4c-.3.5-.5 1.2-.5 1.9 0 1.3.7 2.5 1.7 3.1-.6 0-1.2-.2-1.7-.5 0 1.8 1.3 3.4 3 3.7-.3.1-.7.1-1 .1-.2 0-.5 0-.7-.1.5 1.5 1.9 2.6 3.5 2.6-1.3 1-2.9 1.6-4.7 1.6-.3 0-.6 0-.9-.1C1.7 15.4 3.7 16 5.9 16c7.1 0 11-5.9 11-11v-.5c.8-.5 1.4-1.2 1.9-2 0 0 0 0 .2-.1z"/>
+                        <path d="M18 3.4c-.7.3-1.4.5-2.2.6.8-.5 1.4-1.2 1.7-2.1-.7.4-1.5.7-2.4.9C14.4 2.1 13.4 1.5 12.2 1.5c-2.1 0-3.8 1.7-3.8 3.8 0 .3 0 .6.1.9C5.8 6 3.1 4.6 1.3 2.4c-.3.5-.5 1.2-.5 2 0 1.3.7 2.5 1.7 3.2-.6 0-1.2-.2-1.7-.5v.1c0 1.8 1.3 3.4 3 3.8-.3.1-.7.1-1 .1-.3 0-.5 0-.8-.1.5 1.6 1.9 2.8 3.5 2.8-1.3 1-2.9 1.6-4.7 1.6-.3 0-.6 0-.9-.1 1.7 1.1 3.7 1.8 5.8 1.8 6.9 0 10.7-5.7 10.7-10.7 0-.2 0-.4 0-.6.7-.5 1.3-1.1 1.8-1.8z"/>
                     </svg>
                     <span>Twitter</span>
                     <div class="social-glow"></div>
@@ -125,8 +125,8 @@
             </div>
 
             <div class="nurture-signup">
-                <span>New to wellness? </span>
-                <a href="#" class="growth-link">Begin your journey</a>
+                <span>New to wellness?</span>
+                <a href="register.html" class="growth-link">Begin your journey</a>
             </div>
 
             <div class="harmony-success" id="successMessage">
