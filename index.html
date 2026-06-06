@@ -15,8 +15,8 @@
 	<link rel="stylesheet" href="css/nivo-lightbox.css">
 	<link rel="stylesheet" href="css/nivo_themes/default/default.css">
 	<link rel="stylesheet" href="css/templatemo-style.css">
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Dosis:400,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Dosis:400,700' rel='stylesheet' type='text/css'>
 <!-- 
 Alpha Template
 https://templatemo.com/tm-465-alpha
@@ -24,10 +24,13 @@ https://templatemo.com/tm-465-alpha
 </head>
 <body data-spy="scroll" data-target=".navbar-collapse">
 
-<!-- preloader section -->
+<!-- preloader disabled for testing -->
+
+<!--
 <div class="preloader">
-	<div class="sk-spinner sk-spinner-rotating-plane"></div>
+    <div class="sk-spinner sk-spinner-rotating-plane"></div>
 </div>
+-->>
 
 <!-- navigation section -->
 <nav class="navbar navbar-default navbar-fixed-top sticky-navigation" role="navigation">
@@ -49,11 +52,19 @@ https://templatemo.com/tm-465-alpha
 				<li><a href="#portfolio" class="smoothScroll">PORTFOLIO</a></li>
 				<li><a href="#price" class="smoothScroll">PRICE</a></li>
 				<li><a href="#contact" class="smoothScroll">CONTACT</a></li>
-				<p id="userinfo">Belum login</p>
+			</ul>
+			
+			<p id="userinfo">Belum login</p>
 
-<div id="authArea">
-	<button on click="goLogin()" class="nav-cta">Login</button>
-</div>
+            <div id="authArea">
+	            <button onclick="goLogin()" class="nav-cta">
+				    Login
+			    </button>
+            </div>
+
+	    </div>
+    </div>
+</nav>
 					
 <!-- home section -->
 <section id="home" class="tm-home">
@@ -436,7 +447,7 @@ https://templatemo.com/tm-465-alpha
 </footer>
 
 <!-- javascript js comes here -->
-<script arc="templateemo-maison-doree.js"></script>
+<script src="templateemo-maison-doree.js"></script>
   <script src="login/js/welcome.js"></script>
 
 </body>
